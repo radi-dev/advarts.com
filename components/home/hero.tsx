@@ -3,14 +3,14 @@ import { Button } from "@/components/ui/button"
 
 export function Hero() {
   return (
-    <section className="relative min-h-[720px] lg:min-h-[720px] md:min-h-[420px] flex items-center bg-[#0B2340] overflow-hidden">
+    <section className="relative min-h-screen flex items-center bg-[#0B2340] overflow-hidden">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-20">
         <div className="absolute top-20 left-10 w-64 h-64 bg-[#6C5CE7] rounded-full blur-[100px]" />
         <div className="absolute bottom-20 right-10 w-64 h-64 bg-[#00CEC9] rounded-full blur-[100px]" />
       </div>
 
-      <div className="max-w-[1200px] mx-auto px-6 lg:px-8 py-32 relative z-10">
+      <div className="max-w-300 mx-auto px-6 lg:px-8 py-32 relative z-10 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-[48px] font-bold text-white leading-tight mb-6">
