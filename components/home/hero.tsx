@@ -10,7 +10,7 @@ export function Hero() {
         <div className="absolute bottom-20 right-10 w-64 h-64 bg-[#00CEC9] rounded-full blur-[100px]" />
       </div>
 
-      <div className="max-w-300 mx-auto px-6 lg:px-8 py-32 relative z-10 w-full">
+      <div className="max-w-[1200px] mx-auto px-6 lg:px-8 py-32 relative z-10 w-full">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h1 className="font-heading text-4xl md:text-5xl lg:text-[48px] font-bold text-white leading-tight mb-6">
