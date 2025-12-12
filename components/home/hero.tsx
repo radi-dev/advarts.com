@@ -64,8 +64,8 @@ export function Hero() {
           </div>
         </div>
       </div>
-      {/* <div className=" basis-full orde r-[99]">f</div> */}
       <TrustStrip />
+
     </section>
   )
 }
