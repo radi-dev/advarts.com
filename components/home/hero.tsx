@@ -1,5 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import { TrustStrip } from "./trust-strip"
 
 export function Hero() {
   return (
@@ -63,6 +64,8 @@ export function Hero() {
           </div>
         </div>
       </div>
+      {/* <div className=" basis-full orde r-[99]">f</div> */}
+      <TrustStrip />
     </section>
   )
 }

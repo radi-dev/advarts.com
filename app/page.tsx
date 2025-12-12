@@ -1,7 +1,7 @@
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
 import { Hero } from "@/components/home/hero"
-import { TrustStrip } from "@/components/home/trust-strip"
+// import { TrustStrip } from "@/components/home/trust-strip"
 import { HowItWorks } from "@/components/home/how-it-works"
 import { ServicesPreview } from "@/components/home/services-preview"
 import { PortfolioPreview } from "@/components/home/portfolio-preview"
@@ -13,7 +13,7 @@ export default function HomePage() {
       <Header />
       <main id="main-content">
         <Hero />
-        <TrustStrip />
+        {/* <TrustStrip /> */}
         <HowItWorks />
         <ServicesPreview />
         <PortfolioPreview />
